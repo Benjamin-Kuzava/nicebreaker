@@ -1,10 +1,11 @@
 import React from "react";
+import Grid from "../components/Grid";
 
 function Home() {
   return (
-    <div>
-      <h1>Home</h1>
-    </div>
+    <main className="bg-gray-background container flex items-center justify-center mx-auto max-w-full h-screen">
+      <Grid />
+    </main>
   );
 }
 

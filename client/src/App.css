@@ -1,0 +1,16 @@
+.start-node {
+  background-color: green;
+}
+
+.finish-node {
+  background-color: red;
+}
+
+.wall-node {
+  background-color: grey;
+}
+
+.visited-node,
+.current-node {
+  background-color: goldenrod;
+}
